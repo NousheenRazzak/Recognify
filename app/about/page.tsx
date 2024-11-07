@@ -16,17 +16,17 @@ export default function(){
 
 <h4>Our Approach:</h4>
 
-<p>We approach each project with a unique blend of strategic insight, design expertise, and technical proficiency. Our team of designers, developers, and strategists work collaboratively to ensure that every project is tailored to meet your goals, whether it's creating an engaging website, developing an app, or refining a digital strategy.</p>
+<p>We approach each project with a unique blend of strategic insight, design expertise, and technical proficiency. Our team of designers, developers, and strategists work collaboratively to ensure that every project is tailored to meet your goals, whether it is creating an engaging website, developing an app, or refining a digital strategy.</p>
 
 <h4>Why Choose Us:</h4>
 
-<p>Award-Winning Quality: Our work speaks for itself. We’ve been honored for our ability to exceed expectations, push boundaries, and deliver exceptional results.</p>
+<p>Award-Winning Quality: Our work speaks for itself. We have been honored for our ability to exceed expectations, push boundaries, and deliver exceptional results.</p>
 
 <p>End-to-End Expertise: From concept to launch, we handle every aspect of the digital journey, ensuring a cohesive and professional result.</p>
 
-<p>Client-Centric: Your success is our priority. We listen, collaborate, and bring ideas to life that reflect your brand’s unique identity.</p>
+<p>Client-Centric: Your success is our priority. We listen, collaborate, and bring ideas to life that reflect your brands unique identity.</p>
 
-<p>At Recognify, we’re not just an agency; we’re your dedicated partner in achieving digital excellence. Join us in creating something extraordinary.</p>
+<p>At Recognify, we are not just an agency; we are your dedicated partner in achieving digital excellence. Join us in creating something extraordinary.</p>
             </div>
             </div>
         </div>

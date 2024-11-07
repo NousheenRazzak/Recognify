@@ -35,7 +35,7 @@ export default function Home() {
     
     <h3>ABOUT US</h3>
     <div className="second-para">
-      <p className="para1">LET'S WORK TOGETHER
+      <p className="para1">LET US WORK TOGETHER
         <br />
         TO RECOGNIZE YOUR
       </p>
@@ -106,13 +106,13 @@ export default function Home() {
     </div>
 
     <div className="section-2">
-    <h3>LET'S GET STARTED</h3>
+    <h3>LET US GET STARTED</h3>
     <div className="second-para">
-      <p className="para4">LET'S TAKE YOUR BRAND
+      <p className="para4">LET US TAKE YOUR BRAND
         <br />
         TO THE NEXT LEVEL
       </p>
-      <p className="para5">WHETHER YOU'RE
+      <p className="para5">WHETHER YOU ARE
         <br />
         LOOKING TO REBRAND
       </p>
