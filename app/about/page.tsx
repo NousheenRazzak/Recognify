@@ -1,6 +1,6 @@
 import Header from "@/app/header/header";
 
-export default function(){
+export default function About(){
     return(
         <>
         <div className="main">

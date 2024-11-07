@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+// import styles from "./page.module.css";
 import Header from "./header/header";
 import Arrow from "./public/arrow.png";
 import Adobe from "./public/adobe.png";
