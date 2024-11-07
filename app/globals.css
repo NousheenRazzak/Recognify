@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #cac8c8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,7 +21,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, Poppins, Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -38,5 +40,806 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 80px; */
+}
+
+.logo{
+  font-size: 40px;
+}
+
+.logo span{
+  color: red;
+  font-size: 70px;
+}
+
+ul{
+  display: flex;
+}
+
+ul li{
+  list-style-type: none;
+  margin: 10px 40px;
+  font-size: 20px;
+}
+
+ul li:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: red;
+}
+
+.main{
+  width: 95%;
+  margin: auto;
+}
+
+.hero-section{
+  background-color: #252220;
+  margin-top: 40px;
+  border-radius: 50px;
+  padding: 80px;
+}
+
+.intro{
+  text-align: end;
+  margin-top: 160px;
+}
+
+.intro h1{
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.description{
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 30px;
+  line-height: 100%;
+}
+
+.contact-btn{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-right: 500px;
+  cursor: pointer;
+}
+
+.contact-btn:hover{
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.second-para{
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.para1 {
+  text-align: end;
+  margin-right: 250px;
+}
+
+.para2 {
+  text-align: end;
+}
+
+.para3 {
+  text-align: end;
+  margin-right: 770px;
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 95%; */
+  height: 200px;
+  margin: 70px auto;
+  background-color: red;
+  border-radius: 50px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(34, 32, 32);
+  padding: 50px 0px;
+}
+
+h2{
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.portfolio{
+  display: flex;
+  height: 705px;
+  /* background-color: red; */
+  border-radius: 50px;
+}
+
+.image1{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.image3{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.portfolio{
+  margin: 40px 0px;
+}
+
+.portfolio h3{
+  color: #252220;
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 280px;
+}
+
+.award-text{
+  padding: 55px;
+  background-color: red;
+}
+
+.section-2{
+  background-color: #252220;
+  margin: 40px 0px;
+  border-radius: 50px;
+  padding: 50px;
+}
+
+.para4{
+  text-align: end;
+  margin-right: 220px;
+}
+
+.para5{
+  text-align: end;
+}
+
+.para6{
+  text-align: end;
+  margin-right: 330px;
+}
+
+.para7{
+  text-align: end;
+  margin-right: 670px;
+}
+
+.text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cntct-btn{
+  width: 50%;
+  height: 300px;
+  border: 5px solid rgb(223, 217, 217);
+  border-radius: 150px;
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cntct-btn a {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.recognify{
+  font-size: 250px;
+  font-weight: 500;
+  text-align: center;
+  color: #ededed;
+  overflow: hidden;
+}
+
+.recognify p{
+  margin-bottom: -120px;
+}
+
+.about-section{
+  background-color: #252220;
+  margin: 40px 0px;
+  border-radius: 50px;
+  padding: 80px;
+}
+
+.about{
+  margin-top: 100px;
+}
+
+.about p{
+  text-align: center;
+  font-size: 23px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.about p:first-child{
+  color: red;
+}
+
+.about h1{
+  text-align: center;
+  font-size: 130px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.about h4{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 35px;
+}
+
+.form{
+  width: 50%;
+  margin: 40px auto;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form input{
+  background-color: transparent;
+  padding: 30px;
+  border: 1px solid #cac8c8;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+button{
+  width: 200px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #ededed;
+  border-radius: 50px;
+  color: #ededed;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+button:hover{
+  background-color: red;
+  border:  2px solid #252220;
+  color: #252220;
+}
+
+.message{
+  padding-bottom: 200px;
+}
+
+footer{
+  height: 80px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer{
+  color: #252220;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px 50px;
+}
+
+@media (max-width: 426px){
+  .main{
+    width: 90%;
+  }
+  .logo{
+    font-size: 25px;
+    text-align: center;
+  }
+  header{
+    flex-direction: column;
+  }
+  ul{
+    justify-content: center;
+  }
+  ul li{
+    margin: 13px 32px;
+    font-size: 15px;
+  }
+  .hero-section{
+    padding: 35px;
+  }
+  .intro{
+    margin-top: 85px;
+  }
+  .intro h1{
+    font-size: 54px;
+  }
+  .description{
+    font-size: 15px;
+    line-height: 130%;
+  }
+  .contact-btn{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .second-para{
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .para1{
+    margin-right: 0px;
+  }
+  .para3{
+    margin-right: 0px;
+  }
+  .clients Image{
+    margin: 90px;
+  }
+  .project h2{
+    font-size: 50px;
+  }
+  .portfolio{
+    flex-direction: column;
+    background-color: transparent;
+    align-items: center;
+    height: 1200px;
+  }
+  .portfolio h3{
+    display: none;
+  }
+  .award-text{
+    padding: 0px;
+  }
+  img.image1{
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 5px 0px;
+   }
+   img.image2{
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 5px 0px;
+   }
+   img.image4{
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 5px 0px;
+   }
+   img.image3{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+   }
+  .section-2{
+    padding: 20px;
+    height: 300px;
+  }
+  .para4{
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .para6{
+    margin-right: 0px;
+  }
+  .para7{
+    margin-right: 0px;
+  }
+  .cntct-btn{
+    width: 100%;
+    height: 150px;
+  }
+  .cntct-btn a{
+    font-size: 40px;
+  }
+  .recognify{
+    font-size: 65px;
+  }
+  .recognify p{
+    margin-bottom: -32px;
+  }
+  .footer{
+    margin: 0px 20px;
+    font-size: 12px;
+  }
+  .about-section{
+    padding: 30px;
+  }
+  .about h1{
+    font-size: 60px;
+  }
+  .about p{
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .form{
+    width: 100%;
+    margin: 40px auto;
+  }
+  button{
+    margin: auto;
+  }
+}
+
+@media(max-width: 768px) and (min-width: 426px){
+  .main{
+    width: 90%;
+  }
+  .hero-section{
+    padding: 20px 50px;
+  }
+  .logo{
+    font-size: 30px;
+    padding: 0px;
+    text-align: center;
+  }
+  header{
+    flex-direction: column;
+  }
+  ul{
+    justify-content: space-between;
+  }
+  ul li{
+    margin: 15px 0px;
+    font-size: 20px;
+  }
+  .intro{
+    margin-top: 65px;
+  }
+  .intro h1{
+    font-size: 80px;
+  }
+  .description{
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .contact-btn{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .second-para{
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .para1{
+    margin-right: 0px;
+  }
+  .para3{
+    margin-right: 0px;
+  }
+  .project h2{
+    font-size: 60px;
+  }
+  .portfolio{
+    flex-direction: column;
+    background-color: transparent;
+    align-items: center;
+    height: 2150px;
+  }
+  .portfolio h3{
+    display: none;
+  }
+  .award-text{
+    padding: 0px;
+  }
+  img.image1{
+    width: 500px;
+    height: 700px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 5px 0px;
+   }
+   img.image2{
+    width: 500px;
+    height: 700px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 5px 0px;
+   }
+   img.image4{
+    width: 500px;
+    height: 700px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 5px 0px;
+   }
+   img.image3{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+   }
+   .section-2{
+    padding: 20px;
+    height: 500px;
+  }
+  .para4{
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .para6{
+    margin-right: 0px;
+  }
+  .para7{
+    margin-right: 0px;
+  }
+  .cntct-btn{
+    width: 70%;
+    height: 150px;
+  }
+  .cntct-btn a{
+    font-size: 40px;
+  }
+  .recognify{
+    font-size: 100px;
+  }
+  .recognify p{
+    margin-bottom: -48px;
+  }
+  .about h1{
+    font-size: 100px;
+  }
+  .form{
+    width: 100%;
+    margin: 40px auto;
+  }
+  button{
+    margin: auto;
+  }
+}
+
+@media(max-width: 1024px) and (min-width: 769px){
+  .main{
+    width: 90%;
+  }
+  .hero-section{
+    padding: 20px 50px;
+  }
+  .logo{
+    font-size: 30px;
+    padding: 30px;
+  }
+  ul{
+    justify-content: space-between;
+  }
+  ul li{
+    margin: 40px 40px;
+    font-size: 20px;
+  }
+  .intro{
+    margin-top: 65px;
+  }
+  .intro h1{
+    font-size: 80px;
+  }
+  .description{
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .contact-btn{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .second-para{
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .para1{
+    margin-right: 0px;
+  }
+  .para3{
+    margin-right: 0px;
+  }
+  .project h2{
+    font-size: 60px;
+  }
+  .portfolio{
+    flex-direction: column;
+    background-color: transparent;
+    align-items: center;
+    height: 2150px;
+  }
+  .portfolio h3{
+    display: none;
+  }
+  .award-text{
+    padding: 0px;
+  }
+  img.image1{
+    width: 500px;
+    height: 700px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 5px 0px;
+   }
+   img.image2{
+    width: 500px;
+    height: 700px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 5px 0px;
+   }
+   img.image4{
+    width: 500px;
+    height: 700px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 5px 0px;
+   }
+   img.image3{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+   }
+   .section-2{
+    padding: 20px;
+    height: 500px;
+  }
+  .para4{
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .para6{
+    margin-right: 0px;
+  }
+  .para7{
+    margin-right: 0px;
+  }
+  .cntct-btn{
+    width: 70%;
+    height: 150px;
+  }
+  .cntct-btn a{
+    font-size: 40px;
+  }
+  .recognify{
+    font-size: 140px;
+  }
+  .recognify p{
+    margin-bottom: -68px;
+  }
+  .about h1{
+    font-size: 100px;
+  }
+  .form{
+    width: 100%;
+    margin: 40px auto;
+  }
+  button{
+    margin: auto;
+  }
+}
+
+@media(max-width: 1440px) and (min-width: 1025px){
+  .main{
+    width: 90%;
+  }
+  .hero-section{
+    padding: 20px 50px;
+  }
+  .logo{
+    font-size: 30px;
+    padding: 30px;
+  }
+  ul{
+    justify-content: space-between;
+  }
+  ul li{
+    margin: 40px 40px;
+    font-size: 20px;
+  }
+  .intro{
+    margin-top: 65px;
+  }
+  .contact-btn{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .second-para{
+    font-size: 80px;
+    margin-top: 30px;
+  }
+  .para1{
+    margin-right: 0px;
+  }
+  .para3{
+    margin-right: 0px;
+  }
+  .project h2{
+    font-size: 75px;
+  }
+  .portfolio{
+    background-color: transparent;
+    align-items: center;
+  }
+  .award-text{
+    padding: 0px;
+    background-color: red;
+  }
+  img.image1{
+    width: 340px;
+    height: 612px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+   }
+   img.image2{
+    width: 340px;
+    height: 612px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+   }
+   img.image4{
+    width: 340px;
+    height: 612px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+   }
+   img.image3{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+   }
+   .section-2{
+    padding: 20px;
+  }
+  .para4{
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .para6{
+    margin-right: 0px;
+  }
+  .para7{
+    margin-right: 0px;
+  }
+  .cntct-btn a{
+    font-size: 70px;
+  }
+  .recognify{
+    font-size: 200px;
+  }
+  .recognify p{
+    margin-bottom: -95px;
+  }
+  .form{
+    width: 70%;
+    margin: 40px auto;
   }
 }
