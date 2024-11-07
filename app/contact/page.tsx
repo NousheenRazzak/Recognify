@@ -1,6 +1,6 @@
 import Header from "@/app/header/header";
 
-export default function Contact(){
+export default function Contact() {
     return(
         <>
         <div className="main">
