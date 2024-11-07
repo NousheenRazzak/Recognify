@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "@/app/header/header";
 
 export default function About() {
